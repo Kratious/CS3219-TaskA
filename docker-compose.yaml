@@ -2,7 +2,7 @@ version: '3'
 
 services:
   reverseproxy:
-      image: kratious/3219-reverse-nginx
+      image: kratious/reverseproxy
       ports:
           - 8080:8080
           - 8081:8081
